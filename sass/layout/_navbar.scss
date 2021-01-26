@@ -1,0 +1,19 @@
+//Barra de navegación
+.navbar {
+	display: flex;
+	justify-content: space-between;
+
+	//logo izquierdo
+	&-logo {
+		width: 15%;
+
+		@media (max-width: 1000px) {
+			width: 10%;
+		}
+	}
+
+	// sección derecha
+	&-right {
+		padding: 1em;
+	}
+}

@@ -1,0 +1,29 @@
+//Contenedor para el texto dentro de los slides
+.card {
+	position: absolute;
+  	top: 30%;
+  	font-family: $font-nunito;
+  	width: 30vw;
+  	height: 30vh;
+  	margin-left: 10%;
+  	background-color: #FDFCF0FF;
+  	box-shadow: 3px 3px 5px 1px #ccc;
+
+  	h2 {
+  		font-size: 2.5em;
+  		margin: .5em;
+
+		@media (max-width: 1000px) {
+			font-size: 2em;
+		}
+  	}
+
+ 	p {
+ 		font-size: .8em;
+ 		margin: 1em;
+
+		@media (max-width: 1000px) {
+			font-size: .7em;
+		}
+ 	}
+}

@@ -1,0 +1,22 @@
+{
+  "name": "clothes-store-parcial-web-2020-JuanGallard0",
+  "version": "1.0.0",
+  "description": "- [1. Primer Parcial Programación Web 02/2020](#1-primer-parcial-programación-web-022020) - [2. Indicaciones:](#2-indicaciones) - [3. Requerimientos](#3-requerimientos) - [4. Entrega](#4-entrega) - [5. Consideraciones](#5-consideraciones) - [6. Criterios de evaluación](#6-criterios-de-evaluación) - [7. Recursos](#7-recursos) - [8. Notas](#8-notas)",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass -o css sass",
+    "watch": "node-sass -w -o css sass",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UCASV/clothes-store-parcial-web-2020-JuanGallard0.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UCASV/clothes-store-parcial-web-2020-JuanGallard0/issues"
+  },
+  "homepage": "https://github.com/UCASV/clothes-store-parcial-web-2020-JuanGallard0#readme"
+}

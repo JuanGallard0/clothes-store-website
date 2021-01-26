@@ -1,0 +1,15 @@
+//Productos 
+.products {
+	position: relative;
+
+	&-group {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		padding-top: 5%;
+	}
+
+	img {
+		height: 70vh;
+	}
+}

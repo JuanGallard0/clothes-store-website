@@ -1,0 +1,42 @@
+.footer {
+	margin-top: 15%;
+	display: flex;
+	flex-wrap: wrap;
+	border-top: 2px soldid $color-secondary;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+
+	&-btn {
+		width: 6em;
+	    height: 2em;
+	    font-family: $font-josefinSans;
+	    font-size: 14px;
+	    text-transform: uppercase;
+	    letter-spacing: 1px;
+	    color: $color-primary;
+	    background-color: transparent;
+	    outline: none;
+	    cursor: pointer;
+	    transition: all 0.4s;
+	}
+
+	&-center {
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+
+	}
+
+	&-right, &-center, &-left {
+		margin: 3em;
+		text-align: center;
+	}
+}
+
+.social-media {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}

@@ -1,0 +1,28 @@
+// vars
+$min_width: 320px;
+$max_width: 1900px;
+$min_font: 16px;
+$max_font: 24px;
+
+// Colors
+$color-primary: p#000000FF; 
+$color-secondary: #545454FF;
+$color-back: #F2F0F1FF;
+$color-black: black;
+
+// Fonts
+$font-dancingScript: 'Dancing Script', cursive;
+$font-josefinSans: 'Josefin Sans', sans-serif;
+$font-nunito: Nunito, sans-serif;
+
+//Tamaño de caja
+:root {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: $color-back;
+}

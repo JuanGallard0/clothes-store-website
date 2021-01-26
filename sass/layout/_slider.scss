@@ -1,0 +1,135 @@
+//Objeto carousel 
+.slider {
+	position: relative;
+	top: 10vh;
+	height: 65vh;
+	width: 100%;
+	background: $color-back;
+	overflow: hidden;
+	margin-bottom: 10%;
+
+	&-slide {
+		position: absolute;
+		top: 0;
+		left: 0%;
+		height: 100%;
+		width: 100%;
+
+		h2 {
+			position: absolute;
+			top: 20%;
+			right: 0;
+			height: 10%;
+			color: white;
+		}
+
+		p {
+			position: absolute;
+			top: 40%;
+			left: 0;
+			height: 60%;
+			color: white;
+		}
+
+
+		//Backgrounds de los slides
+		&-1 {
+			background: linear-gradient(rgba($color-back, 0.8), rgba($color-back, 0.6)),
+				url('../images/img1.jpg') center no-repeat;
+			background-size: cover;
+			position: absolute;
+			top: 0;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+
+		&-1 {
+			background: linear-gradient(rgba($color-back, 0.8), rgba($color-back, 0.6)),
+				url('../images/img1.jpg') center no-repeat;
+			background-size: cover;
+			position: absolute;
+			top: 0;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+
+		&-2 {
+			background: linear-gradient(rgba($color-back, 0.8), rgba($color-back, 0.6)),
+				url('../images/img2.jpg') center no-repeat;
+			background-size: cover;
+			position: absolute;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+
+		&-3 {
+			background: linear-gradient(rgba($color-back, 0.8), rgba($color-back, 0.6)),
+				url('../images/img3.jpg') center no-repeat;
+			background-size: cover;
+			position: absolute;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+
+		&-4 {
+			background: linear-gradient(rgba($color-back, 0.8), rgba($color-back, 0.6)),
+				url('../images/img4.jpg') center no-repeat;
+			background-size: cover;
+			position: absolute;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+
+		&-5 {
+			background: linear-gradient(rgba($color-back, 0.8), rgba($color-back, 0.6)),
+				url('../images/img5.jpg') center no-repeat;
+			background-size: cover;
+			position: absolute;
+			left: 0%;
+			height: 100%;
+			width: 100%;
+		}
+	}
+
+	//Intento fallido de hacer una animación de transicion de slides
+	&-slide {
+		transform: translateX(100%);
+ 		-webkit-animation: slide 20s infinite linear;
+
+ 		&-slide-2 {
+  			-webkit-animation-delay: 2s;
+		}
+
+		&-slide-3 {
+  			-webkit-animation-delay: 10s;
+		}
+
+		&-slide-4 {
+  			-webkit-animation-delay: 15s;
+		}
+
+		&-slide-5 {
+  			-webkit-animation-delay: 20s;
+		}
+
+		@-webkit-keyframes slide {
+			5% {
+				transform: translateX(0); /* 1s 6s 11s 16s */
+			}
+			25% {
+				transform: translateX(0); /* 5s 10s 14s 19s */
+			}
+			30% {
+				transform: translateX(-100%); /* 6s 11s 16s 20s */
+			}
+			100% {
+				transform: translateX(-100%);
+			}    
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.header {
+	position: relative;
+	width: 100%;
+  	height: 30vh;
+  
+	//Centrar en la pantalla
+	&-center {
+		@include centering(30vh);
+		font-size: 1.1em;
+
+		@media (max-width: 1000px) {
+		font-size: .7em;
+	}
+	}
+
+	&-link {
+		padding: 0;
+	}
+}

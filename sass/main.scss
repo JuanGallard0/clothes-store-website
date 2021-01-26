@@ -1,0 +1,19 @@
+//Mixin
+@import "mixin";
+
+// Base Style
+@import "base/reset";
+@import "base/page";
+
+// Layout Style
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/slider";
+@import "layout/products";
+@import "layout/footer";
+
+//Components Style 
+@import "components/menu";
+@import "components/heading";
+@import "components/card";
+@import "components/button";

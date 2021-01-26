@@ -1,0 +1,23 @@
+// Estilo de un menu inline
+.menu {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+
+    li {
+    	float: left;
+    }
+
+    li a{
+    	display: inline-block;
+	    color: $color-secondary;
+	    text-align: center;
+	    padding: 14px 16px;
+	    text-decoration: none;
+	    font-family: $font-josefinSans;
+	    font-size: 1.5em;
+    }
+}
+
+
